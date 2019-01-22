@@ -6,7 +6,7 @@
     </head>
 
     <body>
-        <div class="flex">
+        <div class="flex"> 
         <?php include "card.php"; ?>
 </div>
     </body>
