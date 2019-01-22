@@ -13,7 +13,7 @@
 
     include "db_connection.php";
     
-    $m_id = $_GET['Mario_ID'];
+    $m_id = $_GET['Mario_ID']; 
 
 
     $sql_querie = "SELECT Mario_ID, Mario_Img, Mario_Name, Mario_Year, Mario_System FROM mario_games WHERE Mario_ID= '$m_id'";
