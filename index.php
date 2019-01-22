@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
         <title>RETRO|DUMP</title>        
         <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
