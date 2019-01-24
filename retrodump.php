@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RETRO|DUMP</title>        
+        <title>RETRO|DUMPSTER</title>        
         <link rel="stylesheet" type="text/css" media="screen" href="css/eshopheader.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/card.css" />
     </head>
