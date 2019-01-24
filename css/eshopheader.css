@@ -18,9 +18,20 @@ a{
     position: absolute;
 }
 */
-
+.upper_header{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    border: solid transparent 1px;
+    background-image: url(../images/retro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
 .header{
-    background-color: black;
+    background-image: url(../images/retro.jpg);
     width: 100vw;
     height: 75px;
     display: flex;
@@ -31,7 +42,6 @@ a{
     background-color: black;
     width: 100vw;
     height: 75px;
-    background-image: url(../images/brick.png);
     margin-left: 50px;
     background-size: contain;
     background-repeat: no-repeat;

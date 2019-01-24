@@ -8,6 +8,9 @@
     </head>
 
     <body>
+    <div class="upper_header">RETRO|DUMP
+    <div class="logo"></div>
+    </div>
     <div class="header">
 <div class="left_segment"></div>
 <div class="middle_segment"></div>
