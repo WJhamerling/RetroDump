@@ -21,22 +21,28 @@ a{
 .upper_header{
     width: 100vw;
     height: 250px;
+    color: white;
     display: flex;
     flex-direction: row;
     border: solid transparent 1px;
     background-image: url(../images/retro.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
     
 }
 .header{
-    background-image: url(../images/retro.jpg);
     width: 100vw;
     height: 75px;
     display: flex;
     flex-direction: row;
     border: solid transparent 1px;
+}
+.logo{
+    width: auto;
+    height: 225px;
+    background-image: url(../images/brick.png);
+    background-size: cover
 }
 .left_segment{
     background-color: black;

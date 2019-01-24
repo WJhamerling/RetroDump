@@ -8,8 +8,8 @@
     </head>
 
     <body>
-    <div class="upper_header">RETRO|DUMP
-    <div class="logo"></div>
+    <div class="upper_header">
+    <div class="logo">RETRO|DUMP</div>
     </div>
     <div class="header">
 <div class="left_segment"></div>
