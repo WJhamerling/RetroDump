@@ -4,53 +4,24 @@
         <title>RETRO|DUMP</title>        
         <link rel="stylesheet" type="text/css" media="screen" href="css/eshopheader.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/eshopstyle.css" />
-    </head>
+</head>
     <body>
-    <div class="upper_header debug">
-    <div class="logo debug">RETRO|DUMP</div>
+    <div class="header debug"><u>RETRO|DUMP</u></div>
+    <div class="navbar debug">
+        <div class="navbar_back "></div>
+        <div class="navbar_home "></div>
+        <div class="navbar_search "></div>
     </div>
-    <div class="header debug">
-<div class="left_segment debug"></div>
-<div class="middle_segment debug"></div>
-<div class="right_segment debug"></div>
-</div>
-<?php
+    <div class="flexwrap debug">
+      
+        <div class="flexitem debug"><?php include "newcard.php"; ?> </div>
+         
+    </div>
 
-    //eshop.php
-
-    include "db_connection.php";
-
-    if(isset($_GET['Mario_ID'])){
-        //ALS ?Mario_ID=x in de link staat.
-        $m_id = $_GET['Mario_ID'];
-        // $sql_querie = "SELECT Mario_ID, Mario_Img, Mario_Name, Mario_Year, Mario_System FROM mario_games WHERE Mario_ID= '$m_id'"; 
-    }else{
-        //ALS er niks in de link staat.
-        $sql_querie = "SELECT Mario_ID, Mario_Img, Mario_Name, Mario_Year, Mario_System FROM mario_games ";
-    }  
-    
-    $db_result = $conn->query($sql_querie);  
-
-    foreach ($db_result as $row)
-    {            
-        
-        echo '<div class="flex">' .
-             '<a href="eshop.php?Mario_ID=' . $row['Mario_ID'] . '">' .
-             '<img src="' . $row['Mario_Img'] . '" alt="' . $row['Mario_Img'] . '" style="width:150%">' .
-             '</a>' .
-             '<h1>' . $row['Mario_Name'] . '</h1>' .
-            // '<h4>' . $row['Mario_System'] . '</h4>' .
-            //'<h5>' . $row['Mario_Year'] . '</h5>' .
-             
-             '<p class="title">' . $row['Mario_Name'] . '</p>' .           
-             '<p></p>' .
-             '</div>';
-       
-    }       
-
-   // $conn = null;
-  
-?>
-
+<div class="navbar debug">
+        <div class="navbar_back "></div>
+        <div class="navbar_home "></div>
+        <div class="navbar_search"></div>
+    </div>
 </body>
 </html>

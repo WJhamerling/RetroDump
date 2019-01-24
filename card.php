@@ -32,11 +32,11 @@
     foreach ($db_result as $row)
     {            
         
-        echo '<div class="flex debug">' .
+        echo '<div class="flexitem debug">' .
              '<a href="retrodump.php?Mario_ID=' . $row['Mario_ID'] . '">' .
              '<img src="' . $row['Mario_Img'] . '" alt="' . $row['Mario_Img'] . '" style="width:75%">' .
              '</a>' .
-             '<h1>' . $row['Mario_Name'] . '</h1>' .
+            $row['Mario_Name'] . '</h1>' .
             // '<h4>' . $row['Mario_System'] . '</h4>' .
              //'<h5>' . $row['Mario_Year'] . '</h5>' .
              
