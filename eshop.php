@@ -7,21 +7,21 @@
 </head>
     <body>
     <div class="header debug"><u>RETRO|DUMP</u></div>
-    <div class="navbar debug">
-        <div class="navbar_back "></div>
-        <div class="navbar_home "></div>
-        <div class="navbar_search "></div>
+    <div class="navbar1 debug">
+        <div class="navbar1_backbutton ">< Back</div>
+        <div class="navbar1_homebutton ">^ Home</div>
+     <!--   <div class="navbar_search "></div> -->
     </div>
     <div class="flexwrap debug">
       
-        <div class="flexitem debug"><?php include "newcard.php"; ?> </div>
+        <div class="flexitem debug"><?php include "card.php"; ?> </div>
          
     </div>
 
-<div class="navbar debug">
-        <div class="navbar_back "></div>
-        <div class="navbar_home "></div>
+<!-- <div class="navbar2 debug">
+        <div class="navbar2_backbutton ">< Back</div>
+        <div class="navbar2_homebutton ">^ Home</div>
         <div class="navbar_search"></div>
-    </div>
+    </div> -->
 </body>
 </html>
