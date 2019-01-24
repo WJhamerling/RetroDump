@@ -16,7 +16,7 @@
 </div>
 <?php
 
-    //retrodump.php
+    //eshop.php
 
     include "db_connection.php";
     
