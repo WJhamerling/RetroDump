@@ -20,8 +20,8 @@
         
         
         echo '<div class="card">'.
-        '<img src="' . $row['Mario_Img'] . '" class="cardimage"/>'.
-        '<div class="cardtext">' . $row['Mario_Name'] . '</div>'.
+        '<a href="eshop.php?Mario_ID=' . $row['Mario_ID'] .'"> ' . '<img src="' . $row['Mario_Img'] . '" class="cardimage"/>'.
+        '<div class="cardtext">' . $row['Mario_Name'] . '</a>'. '</div>'.
         '</div>';
              
             // '<h4>' . $row['Mario_System'] . '</h4>' .
