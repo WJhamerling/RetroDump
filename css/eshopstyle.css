@@ -27,48 +27,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-    
+    background-color: bisque;
+    box-shadow: 0 0 3px
 }
-
-/* ///////////// effe on hold! 
- .flexcontainer{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    background-color: orange;
-
-} */
-
-/* .flexwhiteleft{
-    width: 100px;
-    height: 100%;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center; 
-    align-items: center; 
-} 
-
-/////////////effe on hold!
- .flexwhiteright{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.flexitem{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;  
-} */
