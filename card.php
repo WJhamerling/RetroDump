@@ -19,11 +19,10 @@
     {            
         
         
-        echo '<div class="flexitem debug">' .
-             '<a href="eshop.php?Mario_ID=' . $row['Mario_ID'] . '">' .
-             '<img src="' . $row['Mario_Img'] . '" alt="' . $row['Mario_Img'] . '" style="width:100%">' .
-             '</a>' .
-             $row['Mario_Name'] .
+        echo '<div class="card">'.
+        '<img src="' . $row['Mario_Img'] . '" class="cardimage"/>'.
+        '<div class="cardtext">' . $row['Mario_Name'] . '</div>'.
+        '</div>';
              
             // '<h4>' . $row['Mario_System'] . '</h4>' .
             //'<h5>' . $row['Mario_Year'] . '</h5>' .

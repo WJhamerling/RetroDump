@@ -15,8 +15,9 @@
     <div class="flexall debug">
         <!-- <div class="flexwhiteleft debug"></div>
         <div class="flexitemspace debug"> -->
-            <div class="cards debug"><?php include "card.php"; ?> 
-        </div>
+            <div class="cards debug">
+                <?php include "card.php"; ?> 
+           
         <!-- <div class="flexwhiteright"></div> -->
     </div>
 
