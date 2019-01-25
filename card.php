@@ -21,7 +21,7 @@
         
         echo '<div class="flexitem debug">' .
              '<a href="eshop.php?Mario_ID=' . $row['Mario_ID'] . '">' .
-             '<img src="' . $row['Mario_Img'] . '" alt="' . $row['Mario_Img'] . '" style="width:75%">' .
+             '<img src="' . $row['Mario_Img'] . '" alt="' . $row['Mario_Img'] . '" style="width:100%">' .
              '</a>' .
              $row['Mario_Name'] .
              

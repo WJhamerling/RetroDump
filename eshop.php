@@ -12,10 +12,12 @@
         <div class="navbar1_homebutton ">^ Home</div>
      <!--   <div class="navbar_search "></div> -->
     </div>
-    <div class="flexwrap debug">
-      
-        <div class="flexitem debug"><?php include "card.php"; ?> </div>
-         
+    <div class="flexall debug">
+        <!-- <div class="flexwhiteleft debug"></div>
+        <div class="flexitemspace debug"> -->
+            <div class="cards debug"><?php include "card.php"; ?> 
+        </div>
+        <!-- <div class="flexwhiteright"></div> -->
     </div>
 
 <!-- <div class="navbar2 debug">
